@@ -35,3 +35,8 @@ const untilNum = num => {
 }
 
 untilNum(5);
+
+const multiply = (prod1, prod2) => {
+   return prod1 * prod2; 
+}
+console.log(multiply(2,4));
