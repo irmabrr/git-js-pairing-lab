@@ -26,3 +26,12 @@ let multiplesOfThreeOrFive = () =>{
 
 
 console.log(multiplesOfThreeOrFive())
+
+//Question 4
+const untilNum = num => {
+    for (i=1; i<=num; i++){
+        console.log(i);
+    }
+}
+
+untilNum(5);
