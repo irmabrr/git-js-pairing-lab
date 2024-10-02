@@ -83,3 +83,15 @@ const betweenTwentyAndFourty = (a) => {
     }
 }
     console.log(betweenTwentyAndFourty(32));
+
+ //Question 10
+ const largest = (a,b,c) => {
+    if(a > b && a > c){
+            return a;
+    } else if (b > c){
+        return b;
+    } else {
+        return c;
+    }
+}
+console.log(largest(30,22,17))
