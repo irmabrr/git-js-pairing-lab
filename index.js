@@ -1,14 +1,12 @@
- //Code your solutions in this file
- let fiveToOneHundred = () =>{
 //Question 1
 let fiveToOneHundred = () =>{
 
-for (i=5; i <= 100; i++){
-     console.log (i);
+    for (i=5; i <= 100; i++){
+        console.log (i);
     }
- }
+}
 
-fiveToOneHundred();
+//fiveToOneHundred();
 
 //Question 2
 const multiplesOfThree = () => {
@@ -17,4 +15,4 @@ const multiplesOfThree = () => {
     }
 }
 
-multiplesOfThree();
+//multiplesOfThree();
