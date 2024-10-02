@@ -66,3 +66,10 @@ const isNegative = (para1) =>{
 }
 
 console.log(isNegative(Math.PI));
+
+//Question 8
+const triangleArea = (h,b) => {
+    return (h*b)/2;
+}
+
+console.log(triangleArea(6,8))
