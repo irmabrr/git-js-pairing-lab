@@ -40,3 +40,14 @@ const multiply = (prod1, prod2) => {
    return prod1 * prod2; 
 }
 console.log(multiply(2,4));
+
+//Question 6
+const add = (num1, num2) => {
+    if (num1 === num2) {
+        return (num1 + num2) * 3;
+    } else {
+        return num1 + num2
+    }
+}
+
+console.log(add(2,4))
